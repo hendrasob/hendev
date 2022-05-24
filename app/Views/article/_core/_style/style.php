@@ -11,4 +11,4 @@
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url ('assets/css/style.css') ?>" rel="stylesheet">
-  <link rel="stylesheet" href="<?= base_url ('assets/css/katex.min.css') ?>" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <link href="<?= base_url ('assets/css/article/katex.min.css') ?>" rel="stylesheet">

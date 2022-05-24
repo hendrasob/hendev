@@ -13,9 +13,9 @@
 
   <!-- Template Main JS File -->
   <script src="<?= base_url ('assets/js/main.js') ?>"></script>
-  <script src="<?= base_url ('assets/js/root/copyright.js') ?>"></script>
-  <script defer src="<?= base_url ('assets/js/katex.min.js') ?>" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-  <script defer src="<?= ('assets/js/auto-render.min.js') ?>" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+  <script src="<?= base_url ('assets/js/article/copyright.js') ?>"></script>
+  <script defer src="<?= base_url ('assets/js/article/katex.min.js') ?>" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+  <script defer src="<?= ('assets/js/article/auto-render.min.js') ?>" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
   <script>
 document.addEventListener("DOMContentLoaded", function() {
 renderMathInElement(document.body, {
