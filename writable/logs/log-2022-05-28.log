@@ -1,0 +1,17 @@
+CRITICAL - 2022-05-28 02:43:08 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', '/storage/emulat...', 326)
+#1 /storage/emulated/0/hendev/system/HTTP/RequestTrait.php(326): filter_var('spark', 516, NULL)
+#2 [internal function]: CodeIgniter\HTTP\Request->CodeIgniter\HTTP\{closure}('spark', 0)
+#3 /storage/emulated/0/hendev/system/HTTP/RequestTrait.php(327): array_walk_recursive(Array, Object(Closure))
+#4 /storage/emulated/0/hendev/system/HTTP/RequestTrait.php(195): CodeIgniter\HTTP\Request->fetchGlobal('server', 'argv', 516, NULL)
+#5 /storage/emulated/0/hendev/system/HTTP/CLIRequest.php(190): CodeIgniter\HTTP\Request->getServer('argv')
+#6 /storage/emulated/0/hendev/system/HTTP/CLIRequest.php(70): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#7 /storage/emulated/0/hendev/system/Config/Services.php(131): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#8 /storage/emulated/0/hendev/system/Config/BaseService.php(100): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#9 /storage/emulated/0/hendev/system/Config/Services.php(126): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#10 /storage/emulated/0/hendev/system/Config/BaseService.php(171): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#11 /storage/emulated/0/hendev/system/CodeIgniter.php(593): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#12 /storage/emulated/0/hendev/system/CodeIgniter.php(307): CodeIgniter\CodeIgniter->getRequestObject()
+#13 /storage/emulated/0/hendev/system/CLI/Console.php(61): CodeIgniter\CodeIgniter->run()
+#14 /storage/emulated/0/hendev/spark(66): CodeIgniter\CLI\Console->run()
+#15 {main}
